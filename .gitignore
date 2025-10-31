@@ -1,6 +1,4 @@
-# =========================
 # Archivos y carpetas de Eclipse
-# =========================
 .classpath
 .project
 .settings/
@@ -11,10 +9,7 @@ target/
 .checkstyle/
 .factorypath
 .loadpath
-
-# =========================
 # Archivos de compilación y dependencias
-# =========================
 *.class
 *.jar
 *.war
@@ -22,45 +17,30 @@ target/
 *.zip
 *.tar.gz
 *.log
-
-# =========================
 # Archivos temporales o de sistema
-# =========================
 *.tmp
 *.bak
 *.swp
 *.swo
 *.DS_Store
 Thumbs.db
-
-# =========================
 # Archivos específicos de IDEs
-# =========================
 # IntelliJ / NetBeans / VSCode (por si el proyecto se abre en otro IDE)
 .idea/
 *.iml
 nbproject/
 .vscode/
-
-# =========================
 # Configuración de usuario o entornos locales
-# =========================
 *.prefs
 *.launch
 .settings/
 .env
 local.properties
-
-# =========================
 # Librerías o dependencias descargadas
-# =========================
 lib/
 out/
 build/
-
-# =========================
 # Maven / Gradle
-# =========================
 # Si el proyecto usa Maven o Gradle, ignorar los directorios de build
 .mvn/
 !/.mvn/wrapper/maven-wrapper.jar
