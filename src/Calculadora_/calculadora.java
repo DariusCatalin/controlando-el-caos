@@ -2,10 +2,15 @@ package Calculadora_;
 
 import java.util.Scanner;
 
-public class calculadora {
-	
-	    public static void main(String[] args) {
-			Scanner sc = new Scanner(System.in);
+// Es buena práctica que el nombre de la clase empiece con mayúscula
+public class calculadora { 
+    
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+          
+            System.out.println("=== Calculadora Básica ===");
+            int a;
+            int b;
 
 	        System.out.println("=== Calculadora Básica ===");
 	        int a;
@@ -23,6 +28,7 @@ public class calculadora {
 			    System.out.println("Raíz de a: " + Math.sqrt(a) + "; Raíz de b: " + Math.sqrt(b));
 			    System.out.println("Potencia: Potencia de a: " + ((double)(Math.pow(a, 2))));
 			    System.out.println("Potencia: Potencia de b: " + ((double)(Math.pow(b, 2))));
+          System.out.println("Porcentaje (b% de a): " + (a / b * 100.0));
 	    }
 	}
 
